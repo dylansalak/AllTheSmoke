@@ -89,10 +89,10 @@ public class RotationSampler : MonoBehaviour
 
     void DetermineRotation()
     {
-        if(peer.samples == null)
+        if(peer == null || peer.samples == null)
         {
             Debug.Log("Peer isn't ready yet");
-            return;
+            peer = GameObject.FindWithTag("Peer")?.GetComponent<AudioPeer>();
         }
         
         //var rotationChange = peer.samples[sampleNumber] * signalScale;

@@ -22,8 +22,27 @@ public class RotationSamplerFactory : MonoBehaviour
                 Quaternion.identity,
                 this.gameObject.transform
             );
-            samplers[i].GetComponent<RotationSampler>().peer = peer;
-            samplers[i].GetComponent<RotationSampler>().sampleNumber = i;
+            Debug.Log($"assiging peer {peer.name} to {samplers[i].name}");
+
+            var sampler = samplers[i].GetComponent<RotationSampler>();
+            if(sampler == null)
+            {
+                Debug.LogWarning("Sampler ain't ready");
+            }
+            sampler.peer = peer;
+            if(sampler.peer == null)
+            {
+                Debug.LogWarning("Assignment failed");
+            }
+            sampler.sampleNumber = i;
+        }
+
+        //redundant peer setting
+        for(int i = 0; i < peer.sampleScale; ++i)
+        {
+            this.gameObject.transform.GetChild(0).gameObject.GetComponent<RotationSampler>().peer = peer;
         }
     }
+
+    
 }
