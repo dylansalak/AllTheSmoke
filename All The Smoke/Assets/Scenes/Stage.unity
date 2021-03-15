@@ -843,6 +843,11 @@ PrefabInstance:
       propertyPath: principal
       value: 
       objectReference: {fileID: 1122892362}
+    - target: {fileID: 2106865105654074443, guid: 2cb4e46ded3f0c5458c25cdb19e77e87,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5032636005263290712, guid: 2cb4e46ded3f0c5458c25cdb19e77e87,
         type: 3}
       propertyPath: m_Name
@@ -1563,6 +1568,11 @@ PrefabInstance:
       propertyPath: principal
       value: 
       objectReference: {fileID: 777866108}
+    - target: {fileID: 2106865105654074443, guid: 2cb4e46ded3f0c5458c25cdb19e77e87,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5032636005263290712, guid: 2cb4e46ded3f0c5458c25cdb19e77e87,
         type: 3}
       propertyPath: m_Name
@@ -1956,6 +1966,11 @@ PrefabInstance:
       propertyPath: principal
       value: 
       objectReference: {fileID: 2073779824}
+    - target: {fileID: 5996926587675456401, guid: d3e18189a36c3af4cb814a42f12d0c79,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3e18189a36c3af4cb814a42f12d0c79, type: 3}
 --- !u!1001 &513240027
@@ -3267,6 +3282,11 @@ PrefabInstance:
       propertyPath: principal
       value: 
       objectReference: {fileID: 1257932635}
+    - target: {fileID: 5617669822045163163, guid: 10887141cd1a8fc4db9efb295283f1a0,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8675272132661086670, guid: 10887141cd1a8fc4db9efb295283f1a0,
         type: 3}
       propertyPath: m_Name
@@ -3518,6 +3538,11 @@ PrefabInstance:
         type: 3}
       propertyPath: signalScale
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5996926587675456401, guid: d3e18189a36c3af4cb814a42f12d0c79,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3e18189a36c3af4cb814a42f12d0c79, type: 3}
@@ -4122,6 +4147,11 @@ PrefabInstance:
       propertyPath: principal
       value: 
       objectReference: {fileID: 1463898936}
+    - target: {fileID: 5617669822045163163, guid: 10887141cd1a8fc4db9efb295283f1a0,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8675272132661086670, guid: 10887141cd1a8fc4db9efb295283f1a0,
         type: 3}
       propertyPath: m_Name
@@ -4599,6 +4629,11 @@ PrefabInstance:
       propertyPath: principal
       value: 
       objectReference: {fileID: 1618922546}
+    - target: {fileID: 1433566460571730635, guid: 571d488e07ab85c47a6f19cdcd31fca4,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2770901121944372638, guid: 571d488e07ab85c47a6f19cdcd31fca4,
         type: 3}
       propertyPath: m_Name
@@ -6323,6 +6358,11 @@ PrefabInstance:
       propertyPath: principal
       value: 
       objectReference: {fileID: 21865706}
+    - target: {fileID: 5227584878729420972, guid: 6771c0f70d6db8544b62a3ca86c9fb91,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5958540878083812664, guid: 6771c0f70d6db8544b62a3ca86c9fb91,
         type: 3}
       propertyPath: m_Mesh
@@ -6561,6 +6601,11 @@ PrefabInstance:
       propertyPath: principal
       value: 
       objectReference: {fileID: 962999155}
+    - target: {fileID: 2106865105654074443, guid: 2cb4e46ded3f0c5458c25cdb19e77e87,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5032636005263290712, guid: 2cb4e46ded3f0c5458c25cdb19e77e87,
         type: 3}
       propertyPath: m_Name
@@ -16717,6 +16762,11 @@ PrefabInstance:
       propertyPath: axis
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1433566460571730635, guid: 571d488e07ab85c47a6f19cdcd31fca4,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2770901121944372638, guid: 571d488e07ab85c47a6f19cdcd31fca4,
         type: 3}
       propertyPath: m_Name
@@ -16978,6 +17028,11 @@ PrefabInstance:
       propertyPath: principal
       value: 
       objectReference: {fileID: 1378508717}
+    - target: {fileID: 5227584878729420972, guid: 6771c0f70d6db8544b62a3ca86c9fb91,
+        type: 3}
+      propertyPath: oppisiteRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5958540878083812664, guid: 6771c0f70d6db8544b62a3ca86c9fb91,
         type: 3}
       propertyPath: m_Mesh

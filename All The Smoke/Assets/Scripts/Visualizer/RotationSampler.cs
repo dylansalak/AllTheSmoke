@@ -19,6 +19,9 @@ public class RotationSampler : MonoBehaviour
     [Tooltip("Which axis the object should rotate around.")]
     public RotationAxis axis = RotationAxis.Z;
 
+    [Tooltip("Whether this object should rotate in a negative direction")]
+    public bool oppisiteRotation = false;
+
     [Tooltip("How high a signal needs to be to prevent the princiapl from being shut off")]
     [Range(0f, 1f)]
     public float signalCutoff = 0.05f;
@@ -77,6 +80,12 @@ public class RotationSampler : MonoBehaviour
                 rotationMax = new Vector3(0f, 0f, 0f);
                 Debug.LogWarning("ConstantRotation: Rotation Axis could not be set correctly");
                 break;
+        }
+
+        //invert rotation when approprite
+        if(oppisiteRotation == true)
+        {
+            rotationMax *= -1.0f;
         }
 
         if(principal == null)
