@@ -93,7 +93,7 @@ public class RotationSampler : MonoBehaviour
             principal = this.gameObject.transform.GetChild(0).gameObject;
         }
 
-        DetermineRotation();
+        //DetermineRotation();
     }
 
     void DetermineRotation()

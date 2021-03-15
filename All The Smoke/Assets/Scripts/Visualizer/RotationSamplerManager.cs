@@ -85,6 +85,8 @@ public class RotationSamplerManager : MonoBehaviour
         InitializeFrequencyBand(PresenceRotators, sampleStarts[5], sampleEnds[5]);
 
         InitializeFrequencyBand(BrillianceRotators, sampleStarts[6], sampleEnds[6]);
+
+        Debug.Log("Initialization Ready");
     }
 
     void InitializeFrequencyBand(GameObject[] rotators, int startSample, int endSample)
@@ -181,6 +183,8 @@ public class RotationSamplerManager : MonoBehaviour
                 //and give it one if it doesn't
                 sampler = rotator.AddComponent<RotationSampler>();
             }
+            //force sampler reassignment
+            //sampler = rotator.AddComponent<RotationSampler>();
 
             //Give the sampler the peer and its assigned sample number to read
             sampler.peer = peer;
@@ -238,6 +242,8 @@ public class RotationSamplerManager : MonoBehaviour
                     //and give it one if it doesn't
                     sampler = rotator.AddComponent<RotationSampler>();
                 }
+                //force sampler reassignment
+                //sampler = rotator.AddComponent<RotationSampler>();
 
                 //Give the sampler the peer and its assigned sample number to read
                 sampler.peer = peer;

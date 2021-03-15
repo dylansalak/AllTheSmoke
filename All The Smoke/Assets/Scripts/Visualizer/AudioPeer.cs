@@ -11,7 +11,7 @@ public class AudioPeer : MonoBehaviour
     public float[] samples{ get; protected set; }
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         audioSource = this.gameObject.GetComponent<AudioSource>();
         if(IsValidScale(sampleScale))
@@ -23,7 +23,8 @@ public class AudioPeer : MonoBehaviour
             Debug.LogError("AudioPeer: sampleScale is either less than 64, greater than 8192, or not a power of 2. None of these 3 things are allowed.");
         }
 
-            
+        GetSpectrumAudioSource();
+        Debug.Log("Peer ready");
     }
 
     // Update is called once per frame
